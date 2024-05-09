@@ -1,6 +1,7 @@
 [package]
 name = "TimeLockedBalance"
 edition = "2024.beta"
+published-at = "0xb4d3f177e78e921a75fa06c1fd445f22b2eb4ce4b24ab7366b799814c9813d5b"
 version = "1.0.0"
 
 [dependencies]
