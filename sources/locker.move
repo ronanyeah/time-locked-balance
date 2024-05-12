@@ -1,3 +1,5 @@
+// A TimeLockedBalance with potentially unsafe methods removed,
+// specifically 'change_unlock_per_second' and 'change_unlock_start_ts_sec'.
 module time_locked_balance::locker {
     use sui::balance::Balance;
     use sui::clock::Clock;

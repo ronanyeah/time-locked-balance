@@ -1,14 +1,14 @@
 [package]
 name = "TimeLockedBalance"
 edition = "2024.beta"
-published-at = "0x137bc1dedb78dba8adb5ce4ecb1107c9fccf5ae6c50cce407afcae942b0d6c66"
+published-at = "0xbafd431cc9362367d02dc2752216782a265216af069d70a7679de5f38c0d62ca"
 version = "1.0.0"
 
 [dependencies]
-Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "testnet-v1.24.1" }
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "mainnet-v1.24.1" }
 
 [addresses]
-time_locked_balance = "0x137bc1dedb78dba8adb5ce4ecb1107c9fccf5ae6c50cce407afcae942b0d6c66"
+time_locked_balance = "0xbafd431cc9362367d02dc2752216782a265216af069d70a7679de5f38c0d62ca"
 
 [dev-dependencies]
 
